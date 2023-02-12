@@ -116,6 +116,7 @@
     <module>parquet-hive</module>
     <module>parquet-hive-bundle</module>
     <module>parquet-tools</module>
+    <module>parquet-hadoop-bundle-shade</module>
   </modules>
 
   <dependencies>
@@ -506,7 +507,7 @@
     <profile>
       <id>thrift9</id>
       <properties>
-        <thrift.version>0.9.0</thrift.version>
+        <thrift.version>0.9.3</thrift.version>
       </properties>
     </profile>
   </profiles>
